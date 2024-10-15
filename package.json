@@ -15,7 +15,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@date-fns/tz": "^1.1.2",
+    "@date-fns/tz": "patch:@date-fns/tz@npm%3A1.1.2#~/.yarn/patches/@date-fns-tz-npm-1.1.2-48bf44e860.patch",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/native": "^6.0.2",
     "date-fns": "^4.1.0",

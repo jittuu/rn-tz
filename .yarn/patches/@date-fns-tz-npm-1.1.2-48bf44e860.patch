@@ -1,0 +1,26 @@
+diff --git a/tzOffset/index.cjs b/tzOffset/index.cjs
+index c6dae93843bb2231f64706f131f1803b58eb1cc2..df055e6725a6552559d6d71b1bc124d524acc98c 100644
+--- a/tzOffset/index.cjs
++++ b/tzOffset/index.cjs
+@@ -19,7 +19,7 @@ const offsetCache = {};
+  */
+ function tzOffset(timeZone, date) {
+   try {
+-    const format = offsetFormatCache[timeZone] ||= new Intl.DateTimeFormat("en-GB", {
++    const format = offsetFormatCache[timeZone] ||= new Intl.DateTimeFormat("en-US", {
+       timeZone,
+       hour: "numeric",
+       timeZoneName: "longOffset"
+diff --git a/tzOffset/index.js b/tzOffset/index.js
+index ee975c99bcaeb34a003d77991f67598da0980076..b2199c86366b3abfbeee19d9e3fd1a0db5f1fcc7 100644
+--- a/tzOffset/index.js
++++ b/tzOffset/index.js
+@@ -16,7 +16,7 @@ const offsetCache = {};
+  */
+ export function tzOffset(timeZone, date) {
+   try {
+-    const format = offsetFormatCache[timeZone] ||= new Intl.DateTimeFormat("en-GB", {
++    const format = offsetFormatCache[timeZone] ||= new Intl.DateTimeFormat("en-US", {
+       timeZone,
+       hour: "numeric",
+       timeZoneName: "longOffset"

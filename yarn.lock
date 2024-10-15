@@ -1184,10 +1184,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@date-fns/tz@npm:^1.1.2":
+"@date-fns/tz@npm:1.1.2":
   version: 1.1.2
   resolution: "@date-fns/tz@npm:1.1.2"
   checksum: 10c0/30c5e15f11ceb013fcba3fd05125571554b9a7cab4873c69969966f7ddb00ffa8c9277d2367012e72fd7a905e48a7252e1f914614532852f157d62b3f8d90034
+  languageName: node
+  linkType: hard
+
+"@date-fns/tz@patch:@date-fns/tz@npm%3A1.1.2#~/.yarn/patches/@date-fns-tz-npm-1.1.2-48bf44e860.patch":
+  version: 1.1.2
+  resolution: "@date-fns/tz@patch:@date-fns/tz@npm%3A1.1.2#~/.yarn/patches/@date-fns-tz-npm-1.1.2-48bf44e860.patch::version=1.1.2&hash=69712e"
+  checksum: 10c0/aa4101ec9f739d9e89cee281a800ab3106777e6046a3e49a6dd2965ed664ae51e327b93120421f7f228a498c40205c9cf7ab60dd90338b3ac61db406832b4e36
   languageName: node
   linkType: hard
 
@@ -9667,7 +9674,7 @@ __metadata:
   resolution: "rn-tz@workspace:."
   dependencies:
     "@babel/core": "npm:^7.20.0"
-    "@date-fns/tz": "npm:^1.1.2"
+    "@date-fns/tz": "patch:@date-fns/tz@npm%3A1.1.2#~/.yarn/patches/@date-fns-tz-npm-1.1.2-48bf44e860.patch"
     "@expo/vector-icons": "npm:^14.0.2"
     "@react-navigation/native": "npm:^6.0.2"
     "@types/jest": "npm:^29.5.12"
